@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <kern>
+    <version value="0"/>
+    <kernsubtable coverage="1" format="0">
+      <pair l="fraction" r="four.dnom" v="-30"/>
+      <pair l="fraction" r="one.dnom" v="30"/>
+      <pair l="fraction" r="seven.dnom" v="20"/>
+      <pair l="fraction" r="six.dnom" v="-20"/>
+      <pair l="fraction" r="three.dnom" v="10"/>
+      <pair l="fraction" r="two.dnom" v="-20"/>
+    </kernsubtable>
+  </kern>
+
+</ttFont>
