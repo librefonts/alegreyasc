@@ -1,0 +1,1569 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/alegreyasc/METADATA.json /home/travis/build/fontdirectory/alegreyasc/builds/build
+$ cp -a /home/travis/build/fontdirectory/alegreyasc/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/alegreyasc/builds/build
+$ cp -a /home/travis/build/fontdirectory/alegreyasc/FONTLOG.txt /home/travis/build/fontdirectory/alegreyasc/builds/build
+$ cp -a AlegreyaSC-Regular.ttf.ttx AlegreyaSC-Italic.ttf.ttx AlegreyaSC-BoldItalic.ttf.ttx AlegreyaSC-Bold.ttf.ttx AlegreyaSC-BlackItalic.ttf.ttx AlegreyaSC-Black.ttf.ttx src/AlegreyaSC-Regular.otf.ttx src/AlegreyaSC-Italic.otf.ttx src/AlegreyaSC-BoldItalic.otf.ttx src/AlegreyaSC-Bold.otf.ttx src/AlegreyaSC-BlackItalic.otf.ttx src/AlegreyaSC-Black.otf.ttx src/AlegreyaSC-Regular-TTF.sfd src/AlegreyaSC-Italic-TTF.sfd src/AlegreyaSC-BoldItalic-TTF.sfd src/AlegreyaSC-Bold-TTF.sfd src/AlegreyaSC-BlackItalic-TTF.sfd src/AlegreyaSC-Black-TTF.sfd AlegreyaSC-Regular.ttf._p_r_e_p.ttx AlegreyaSC-Regular.ttf._p_o_s_t.ttx AlegreyaSC-Regular.ttf._n_a_m_e.ttx AlegreyaSC-Regular.ttf._m_a_x_p.ttx AlegreyaSC-Regular.ttf._l_o_c_a.ttx AlegreyaSC-Regular.ttf._h_m_t_x.ttx AlegreyaSC-Regular.ttf._h_h_e_a.ttx AlegreyaSC-Regular.ttf._h_e_a_d.ttx AlegreyaSC-Regular.ttf._g_l_y_f.ttx AlegreyaSC-Regular.ttf._g_a_s_p.ttx AlegreyaSC-Regular.ttf._c_m_a_p.ttx AlegreyaSC-Regular.ttf.O_S_2f_2.ttx AlegreyaSC-Regular.ttf.GlyphOrder.ttx AlegreyaSC-Regular.ttf.G_S_U_B_.ttx AlegreyaSC-Regular.ttf.G_P_O_S_.ttx AlegreyaSC-Regular.ttf.G_D_E_F_.ttx AlegreyaSC-Regular.ttf.F_F_T_M_.ttx AlegreyaSC-Regular.ttf.D_S_I_G_.ttx AlegreyaSC-Italic.ttf._p_r_e_p.ttx AlegreyaSC-Italic.ttf._p_o_s_t.ttx AlegreyaSC-Italic.ttf._n_a_m_e.ttx AlegreyaSC-Italic.ttf._m_a_x_p.ttx AlegreyaSC-Italic.ttf._l_o_c_a.ttx AlegreyaSC-Italic.ttf._h_m_t_x.ttx AlegreyaSC-Italic.ttf._h_h_e_a.ttx AlegreyaSC-Italic.ttf._h_e_a_d.ttx AlegreyaSC-Italic.ttf._g_l_y_f.ttx AlegreyaSC-Italic.ttf._g_a_s_p.ttx AlegreyaSC-Italic.ttf._c_m_a_p.ttx AlegreyaSC-Italic.ttf.O_S_2f_2.ttx AlegreyaSC-Italic.ttf.GlyphOrder.ttx AlegreyaSC-Italic.ttf.G_S_U_B_.ttx AlegreyaSC-Italic.ttf.G_P_O_S_.ttx AlegreyaSC-Italic.ttf.G_D_E_F_.ttx AlegreyaSC-Italic.ttf.F_F_T_M_.ttx AlegreyaSC-Italic.ttf.D_S_I_G_.ttx AlegreyaSC-BoldItalic.ttf._p_r_e_p.ttx AlegreyaSC-BoldItalic.ttf._p_o_s_t.ttx AlegreyaSC-BoldItalic.ttf._n_a_m_e.ttx AlegreyaSC-BoldItalic.ttf._m_a_x_p.ttx AlegreyaSC-BoldItalic.ttf._l_o_c_a.ttx AlegreyaSC-BoldItalic.ttf._h_m_t_x.ttx AlegreyaSC-BoldItalic.ttf._h_h_e_a.ttx AlegreyaSC-BoldItalic.ttf._h_e_a_d.ttx AlegreyaSC-BoldItalic.ttf._g_l_y_f.ttx AlegreyaSC-BoldItalic.ttf._g_a_s_p.ttx AlegreyaSC-BoldItalic.ttf._c_m_a_p.ttx AlegreyaSC-BoldItalic.ttf.O_S_2f_2.ttx AlegreyaSC-BoldItalic.ttf.GlyphOrder.ttx AlegreyaSC-BoldItalic.ttf.G_S_U_B_.ttx AlegreyaSC-BoldItalic.ttf.G_P_O_S_.ttx AlegreyaSC-BoldItalic.ttf.G_D_E_F_.ttx AlegreyaSC-BoldItalic.ttf.F_F_T_M_.ttx AlegreyaSC-BoldItalic.ttf.D_S_I_G_.ttx AlegreyaSC-Bold.ttf._p_r_e_p.ttx AlegreyaSC-Bold.ttf._p_o_s_t.ttx AlegreyaSC-Bold.ttf._n_a_m_e.ttx AlegreyaSC-Bold.ttf._m_a_x_p.ttx AlegreyaSC-Bold.ttf._l_o_c_a.ttx AlegreyaSC-Bold.ttf._h_m_t_x.ttx AlegreyaSC-Bold.ttf._h_h_e_a.ttx AlegreyaSC-Bold.ttf._h_e_a_d.ttx AlegreyaSC-Bold.ttf._g_l_y_f.ttx AlegreyaSC-Bold.ttf._g_a_s_p.ttx AlegreyaSC-Bold.ttf._c_m_a_p.ttx AlegreyaSC-Bold.ttf.O_S_2f_2.ttx AlegreyaSC-Bold.ttf.GlyphOrder.ttx AlegreyaSC-Bold.ttf.G_S_U_B_.ttx AlegreyaSC-Bold.ttf.G_P_O_S_.ttx AlegreyaSC-Bold.ttf.G_D_E_F_.ttx AlegreyaSC-Bold.ttf.F_F_T_M_.ttx AlegreyaSC-Bold.ttf.D_S_I_G_.ttx AlegreyaSC-BlackItalic.ttf._p_r_e_p.ttx AlegreyaSC-BlackItalic.ttf._p_o_s_t.ttx AlegreyaSC-BlackItalic.ttf._n_a_m_e.ttx AlegreyaSC-BlackItalic.ttf._m_a_x_p.ttx AlegreyaSC-BlackItalic.ttf._l_o_c_a.ttx AlegreyaSC-BlackItalic.ttf._h_m_t_x.ttx AlegreyaSC-BlackItalic.ttf._h_h_e_a.ttx AlegreyaSC-BlackItalic.ttf._h_e_a_d.ttx AlegreyaSC-BlackItalic.ttf._g_l_y_f.ttx AlegreyaSC-BlackItalic.ttf._g_a_s_p.ttx AlegreyaSC-BlackItalic.ttf._c_m_a_p.ttx AlegreyaSC-BlackItalic.ttf.O_S_2f_2.ttx AlegreyaSC-BlackItalic.ttf.GlyphOrder.ttx AlegreyaSC-BlackItalic.ttf.G_S_U_B_.ttx AlegreyaSC-BlackItalic.ttf.G_P_O_S_.ttx AlegreyaSC-BlackItalic.ttf.G_D_E_F_.ttx AlegreyaSC-BlackItalic.ttf.F_F_T_M_.ttx AlegreyaSC-BlackItalic.ttf.D_S_I_G_.ttx AlegreyaSC-Black.ttf._p_r_e_p.ttx AlegreyaSC-Black.ttf._p_o_s_t.ttx AlegreyaSC-Black.ttf._n_a_m_e.ttx AlegreyaSC-Black.ttf._m_a_x_p.ttx AlegreyaSC-Black.ttf._l_o_c_a.ttx AlegreyaSC-Black.ttf._h_m_t_x.ttx AlegreyaSC-Black.ttf._h_h_e_a.ttx AlegreyaSC-Black.ttf._h_e_a_d.ttx AlegreyaSC-Black.ttf._g_l_y_f.ttx AlegreyaSC-Black.ttf._g_a_s_p.ttx AlegreyaSC-Black.ttf._c_m_a_p.ttx AlegreyaSC-Black.ttf.O_S_2f_2.ttx AlegreyaSC-Black.ttf.GlyphOrder.ttx AlegreyaSC-Black.ttf.G_S_U_B_.ttx AlegreyaSC-Black.ttf.G_P_O_S_.ttx AlegreyaSC-Black.ttf.G_D_E_F_.ttx AlegreyaSC-Black.ttf.F_F_T_M_.ttx AlegreyaSC-Black.ttf.D_S_I_G_.ttx src/AlegreyaSC-Regular.otf._p_o_s_t.ttx src/AlegreyaSC-Regular.otf._n_a_m_e.ttx src/AlegreyaSC-Regular.otf._m_a_x_p.ttx src/AlegreyaSC-Regular.otf._k_e_r_n.ttx src/AlegreyaSC-Regular.otf._h_m_t_x.ttx src/AlegreyaSC-Regular.otf._h_h_e_a.ttx src/AlegreyaSC-Regular.otf._h_e_a_d.ttx src/AlegreyaSC-Regular.otf._c_m_a_p.ttx src/AlegreyaSC-Regular.otf.O_S_2f_2.ttx src/AlegreyaSC-Regular.otf.GlyphOrder.ttx src/AlegreyaSC-Regular.otf.C_F_F_.ttx src/AlegreyaSC-Italic.otf._p_o_s_t.ttx src/AlegreyaSC-Italic.otf._n_a_m_e.ttx src/AlegreyaSC-Italic.otf._m_a_x_p.ttx src/AlegreyaSC-Italic.otf._k_e_r_n.ttx src/AlegreyaSC-Italic.otf._h_m_t_x.ttx src/AlegreyaSC-Italic.otf._h_h_e_a.ttx src/AlegreyaSC-Italic.otf._h_e_a_d.ttx src/AlegreyaSC-Italic.otf._c_m_a_p.ttx src/AlegreyaSC-Italic.otf.O_S_2f_2.ttx src/AlegreyaSC-Italic.otf.GlyphOrder.ttx src/AlegreyaSC-Italic.otf.C_F_F_.ttx src/AlegreyaSC-BoldItalic.otf._p_o_s_t.ttx src/AlegreyaSC-BoldItalic.otf._n_a_m_e.ttx src/AlegreyaSC-BoldItalic.otf._m_a_x_p.ttx src/AlegreyaSC-BoldItalic.otf._k_e_r_n.ttx src/AlegreyaSC-BoldItalic.otf._h_m_t_x.ttx src/AlegreyaSC-BoldItalic.otf._h_h_e_a.ttx src/AlegreyaSC-BoldItalic.otf._h_e_a_d.ttx src/AlegreyaSC-BoldItalic.otf._c_m_a_p.ttx src/AlegreyaSC-BoldItalic.otf.O_S_2f_2.ttx src/AlegreyaSC-BoldItalic.otf.GlyphOrder.ttx src/AlegreyaSC-BoldItalic.otf.C_F_F_.ttx src/AlegreyaSC-Bold.otf._p_o_s_t.ttx src/AlegreyaSC-Bold.otf._n_a_m_e.ttx src/AlegreyaSC-Bold.otf._m_a_x_p.ttx src/AlegreyaSC-Bold.otf._k_e_r_n.ttx src/AlegreyaSC-Bold.otf._h_m_t_x.ttx src/AlegreyaSC-Bold.otf._h_h_e_a.ttx src/AlegreyaSC-Bold.otf._h_e_a_d.ttx src/AlegreyaSC-Bold.otf._c_m_a_p.ttx src/AlegreyaSC-Bold.otf.O_S_2f_2.ttx src/AlegreyaSC-Bold.otf.GlyphOrder.ttx src/AlegreyaSC-Bold.otf.C_F_F_.ttx src/AlegreyaSC-BlackItalic.otf._p_o_s_t.ttx src/AlegreyaSC-BlackItalic.otf._n_a_m_e.ttx src/AlegreyaSC-BlackItalic.otf._m_a_x_p.ttx src/AlegreyaSC-BlackItalic.otf._k_e_r_n.ttx src/AlegreyaSC-BlackItalic.otf._h_m_t_x.ttx src/AlegreyaSC-BlackItalic.otf._h_h_e_a.ttx src/AlegreyaSC-BlackItalic.otf._h_e_a_d.ttx src/AlegreyaSC-BlackItalic.otf._c_m_a_p.ttx src/AlegreyaSC-BlackItalic.otf.O_S_2f_2.ttx src/AlegreyaSC-BlackItalic.otf.GlyphOrder.ttx src/AlegreyaSC-BlackItalic.otf.C_F_F_.ttx src/AlegreyaSC-Black.otf._p_o_s_t.ttx src/AlegreyaSC-Black.otf._n_a_m_e.ttx src/AlegreyaSC-Black.otf._m_a_x_p.ttx src/AlegreyaSC-Black.otf._k_e_r_n.ttx src/AlegreyaSC-Black.otf._h_m_t_x.ttx src/AlegreyaSC-Black.otf._h_h_e_a.ttx src/AlegreyaSC-Black.otf._h_e_a_d.ttx src/AlegreyaSC-Black.otf._c_m_a_p.ttx src/AlegreyaSC-Black.otf.O_S_2f_2.ttx src/AlegreyaSC-Black.otf.GlyphOrder.ttx src/AlegreyaSC-Black.otf.C_F_F_.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Black.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BlackItalic.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Bold.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BoldItalic.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Italic.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Regular.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Black.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BlackItalic.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Bold.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Italic.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Regular.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Black-TTF.sfd /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BlackItalic-TTF.sfd /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Bold-TTF.sfd /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BoldItalic-TTF.sfd /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Italic-TTF.sfd /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Regular-TTF.sfd > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+pyfontaine error: Not a TrueType or OpenType font (bad sfntVersion)
+pyfontaine process has been failed
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-Black.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Black.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Black.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-BlackItalic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BlackItalic.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BlackItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-Bold.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Bold.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-BoldItalic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BoldItalic.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-Italic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Italic.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-Regular.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Regular.otf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-Black.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Black.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Black.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-BlackItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BlackItalic.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BlackItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Bold.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Italic.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AlegreyaSC-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Regular.ttf.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream AlegreyaSC-Black-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream AlegreyaSC-BlackItalic-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream AlegreyaSC-Bold-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream AlegreyaSC-BoldItalic-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream AlegreyaSC-Italic-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream AlegreyaSC-Regular-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/alegreyasc/builds/build /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Regular.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Italic.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BoldItalic.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Bold.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BlackItalic.ttx /home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Black.ttx
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Black-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BlackItalic-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Bold-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BoldItalic-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Italic-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Regular-TTF.sfd
+Compiling "/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Regular.ttx" to "/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Italic.ttx" to "/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BoldItalic.ttx" to "/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Bold.ttx" to "/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-BlackItalic.ttx" to "/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/alegreyasc/builds/build/sources/AlegreyaSC-Black.ttx" to "/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+### Test AlegreyaSC-Regular.ttf
+$ fontbakery-check.py result AlegreyaSC-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-Regular.ttf
+$ ls -l 'AlegreyaSC-Regular.ttf'* # look at the size savings of that subset process
+AlegreyaSC-Regular.ttf.opt: 68848 bytes
+AlegreyaSC-Regular.ttf: 73300 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf: 68848 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.autohint.ttf: 99812 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-Regular.ttf
+$ pyftsubset AlegreyaSC-Regular.latin
+$ pyftsubset AlegreyaSC-Regular.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular.ttf
+spaceWidth is    202
+nbspWidth is     202
+Nothing to do
+### Test AlegreyaSC-Italic.ttf
+$ fontbakery-check.py result AlegreyaSC-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-Italic.ttf
+$ ls -l 'AlegreyaSC-Italic.ttf'* # look at the size savings of that subset process
+AlegreyaSC-Italic.ttf.opt: 69204 bytes
+AlegreyaSC-Italic.ttf: 73676 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf: 69204 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.autohint.ttf: 98544 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-Italic.ttf
+$ pyftsubset AlegreyaSC-Italic.latin
+$ pyftsubset AlegreyaSC-Italic.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic.ttf
+spaceWidth is    192
+nbspWidth is     192
+Nothing to do
+### Test AlegreyaSC-BoldItalic.ttf
+$ fontbakery-check.py result AlegreyaSC-BoldItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-BoldItalic.ttf
+$ ls -l 'AlegreyaSC-BoldItalic.ttf'* # look at the size savings of that subset process
+AlegreyaSC-BoldItalic.ttf.opt: 68548 bytes
+AlegreyaSC-BoldItalic.ttf: 73032 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf: 68548 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.autohint.ttf: 102876 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-BoldItalic.ttf
+$ pyftsubset AlegreyaSC-BoldItalic.latin
+$ pyftsubset AlegreyaSC-BoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic.ttf
+spaceWidth is    166
+nbspWidth is     166
+Nothing to do
+### Test AlegreyaSC-Bold.ttf
+$ fontbakery-check.py result AlegreyaSC-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-Bold.ttf
+$ ls -l 'AlegreyaSC-Bold.ttf'* # look at the size savings of that subset process
+AlegreyaSC-Bold.ttf.opt: 67992 bytes
+AlegreyaSC-Bold.ttf: 72456 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf: 67992 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.autohint.ttf: 103844 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-Bold.ttf
+$ pyftsubset AlegreyaSC-Bold.latin
+$ pyftsubset AlegreyaSC-Bold.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold.ttf
+spaceWidth is    174
+nbspWidth is     174
+Nothing to do
+### Test AlegreyaSC-BlackItalic.ttf
+$ fontbakery-check.py result AlegreyaSC-BlackItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-BlackItalic.ttf
+$ ls -l 'AlegreyaSC-BlackItalic.ttf'* # look at the size savings of that subset process
+AlegreyaSC-BlackItalic.ttf.opt: 67752 bytes
+AlegreyaSC-BlackItalic.ttf: 72240 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-BlackItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf: 67752 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.autohint.ttf: 122972 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-BlackItalic.ttf
+$ pyftsubset AlegreyaSC-BlackItalic.latin
+$ pyftsubset AlegreyaSC-BlackItalic.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic.ttf
+spaceWidth is    137
+nbspWidth is     137
+Nothing to do
+### Test AlegreyaSC-Black.ttf
+$ fontbakery-check.py result AlegreyaSC-Black.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-Black.ttf
+$ ls -l 'AlegreyaSC-Black.ttf'* # look at the size savings of that subset process
+AlegreyaSC-Black.ttf.opt: 66628 bytes
+AlegreyaSC-Black.ttf: 71096 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-Black.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf: 66628 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.autohint.ttf: 121160 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-Black.ttf
+$ pyftsubset AlegreyaSC-Black.latin
+$ pyftsubset AlegreyaSC-Black.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black.ttf
+spaceWidth is    144
+nbspWidth is     144
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/AlegreyaSC-Black-TTF.sfd AlegreyaSC-Black-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf)
+### Test AlegreyaSC-Black-TTF.ttf
+$ fontbakery-check.py result AlegreyaSC-Black-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-Black-TTF.ttf
+$ ls -l 'AlegreyaSC-Black-TTF.ttf'* # look at the size savings of that subset process
+AlegreyaSC-Black-TTF.ttf.opt: 66212 bytes
+AlegreyaSC-Black-TTF.ttf: 71148 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-Black-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf: 66212 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.autohint.ttf: 121700 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-Black-TTF.ttf
+$ pyftsubset AlegreyaSC-Black-TTF.latin
+$ pyftsubset AlegreyaSC-Black-TTF.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Black-TTF.ttf
+spaceWidth is    144
+nbspWidth is     144
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/AlegreyaSC-BlackItalic-TTF.sfd AlegreyaSC-BlackItalic-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf)
+### Test AlegreyaSC-BlackItalic-TTF.ttf
+$ fontbakery-check.py result AlegreyaSC-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-BlackItalic-TTF.ttf
+$ ls -l 'AlegreyaSC-BlackItalic-TTF.ttf'* # look at the size savings of that subset process
+AlegreyaSC-BlackItalic-TTF.ttf.opt: 67364 bytes
+AlegreyaSC-BlackItalic-TTF.ttf: 72376 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-BlackItalic-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf: 67364 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.autohint.ttf: 122912 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-BlackItalic-TTF.ttf
+$ pyftsubset AlegreyaSC-BlackItalic-TTF.latin
+$ pyftsubset AlegreyaSC-BlackItalic-TTF.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BlackItalic-TTF.ttf
+spaceWidth is    137
+nbspWidth is     137
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/AlegreyaSC-Bold-TTF.sfd AlegreyaSC-Bold-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf)
+### Test AlegreyaSC-Bold-TTF.ttf
+$ fontbakery-check.py result AlegreyaSC-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-Bold-TTF.ttf
+$ ls -l 'AlegreyaSC-Bold-TTF.ttf'* # look at the size savings of that subset process
+AlegreyaSC-Bold-TTF.ttf.opt: 67344 bytes
+AlegreyaSC-Bold-TTF.ttf: 72300 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-Bold-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf: 67344 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.autohint.ttf: 103776 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-Bold-TTF.ttf
+$ pyftsubset AlegreyaSC-Bold-TTF.latin
+$ pyftsubset AlegreyaSC-Bold-TTF.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Bold-TTF.ttf
+spaceWidth is    174
+nbspWidth is     174
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/AlegreyaSC-BoldItalic-TTF.sfd AlegreyaSC-BoldItalic-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf)
+### Test AlegreyaSC-BoldItalic-TTF.ttf
+$ fontbakery-check.py result AlegreyaSC-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-BoldItalic-TTF.ttf
+$ ls -l 'AlegreyaSC-BoldItalic-TTF.ttf'* # look at the size savings of that subset process
+AlegreyaSC-BoldItalic-TTF.ttf.opt: 68076 bytes
+AlegreyaSC-BoldItalic-TTF.ttf: 73040 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-BoldItalic-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf: 68076 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.autohint.ttf: 103444 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-BoldItalic-TTF.ttf
+$ pyftsubset AlegreyaSC-BoldItalic-TTF.latin
+$ pyftsubset AlegreyaSC-BoldItalic-TTF.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-BoldItalic-TTF.ttf
+spaceWidth is    166
+nbspWidth is     166
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/AlegreyaSC-Italic-TTF.sfd AlegreyaSC-Italic-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf)
+### Test AlegreyaSC-Italic-TTF.ttf
+$ fontbakery-check.py result AlegreyaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-Italic-TTF.ttf
+$ ls -l 'AlegreyaSC-Italic-TTF.ttf'* # look at the size savings of that subset process
+AlegreyaSC-Italic-TTF.ttf.opt: 68552 bytes
+AlegreyaSC-Italic-TTF.ttf: 73544 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-Italic-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf: 68552 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.autohint.ttf: 98672 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-Italic-TTF.ttf
+$ pyftsubset AlegreyaSC-Italic-TTF.latin
+$ pyftsubset AlegreyaSC-Italic-TTF.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Italic-TTF.ttf
+spaceWidth is    192
+nbspWidth is     192
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/AlegreyaSC-Regular-TTF.sfd AlegreyaSC-Regular-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf)
+### Test AlegreyaSC-Regular-TTF.ttf
+$ fontbakery-check.py result AlegreyaSC-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AlegreyaSC-Regular-TTF.ttf
+$ ls -l 'AlegreyaSC-Regular-TTF.ttf'* # look at the size savings of that subset process
+AlegreyaSC-Regular-TTF.ttf.opt: 67928 bytes
+AlegreyaSC-Regular-TTF.ttf: 72908 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf.opt /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+### Autohint TTFs (ttfautohint) AlegreyaSC-Regular-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf '/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf: 67928 bytes
+/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.autohint.ttf: 99480 bytes
+$ mv /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.autohint.ttf /home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+### Subset TTFs (pyftsubset) AlegreyaSC-Regular-TTF.ttf
+$ pyftsubset AlegreyaSC-Regular-TTF.latin
+$ pyftsubset AlegreyaSC-Regular-TTF.menu
+strippedname:/home/travis/build/fontdirectory/alegreyasc/builds/build/AlegreyaSC-Regular-TTF.ttf
+spaceWidth is    202
+nbspWidth is     202
+Nothing to do
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/alegreyasc/builds/build
+{} exists
+Designer's name from font is: Juan Pablo del Peral
+Original size: 99812\nGzip size: 43930
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-Regular
+Full Name: Alegreya SC
+Style: normal
+Weight: 400
+Filename: AlegreyaSC-Regular-TTF.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-Italic
+Full Name: Alegreya SC Italic
+Style: normal
+Weight: 400
+Filename: AlegreyaSC-Italic-TTF.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-BoldItalic
+Full Name: Alegreya SC Bold Italic
+Style: normal
+Weight: 700
+Filename: AlegreyaSC-BoldItalic-TTF.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-Bold
+Full Name: Alegreya SC Bold
+Style: normal
+Weight: 700
+Filename: AlegreyaSC-Bold-TTF.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-BlackItalic
+Full Name: Alegreya SC Black Italic
+Style: normal
+Weight: 900
+Filename: AlegreyaSC-BlackItalic-TTF.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-Black
+Full Name: Alegreya SC Black
+Style: normal
+Weight: 900
+Filename: AlegreyaSC-Black-TTF.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-Black
+Full Name: Alegreya SC Black
+Style: normal
+Weight: 900
+Filename: AlegreyaSC-Black.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-BlackItalic
+Full Name: Alegreya SC Black Italic
+Style: normal
+Weight: 900
+Filename: AlegreyaSC-BlackItalic.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-Bold
+Full Name: Alegreya SC Bold
+Style: normal
+Weight: 700
+Filename: AlegreyaSC-Bold.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-BoldItalic
+Full Name: Alegreya SC Bold Italic
+Style: normal
+Weight: 700
+Filename: AlegreyaSC-BoldItalic.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-Italic
+Full Name: Alegreya SC Italic
+Style: normal
+Weight: 400
+Filename: AlegreyaSC-Italic.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Family Name: Alegreya SC
+PS Name: AlegreyaSC-Regular
+Full Name: Alegreya SC
+Style: normal
+Weight: 400
+Filename: AlegreyaSC-Regular.ttf
+Copyright: Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names "Alegreya" "Alegreya SC"
+Error: 
+ERROR: BUILD FAILED
